@@ -54,12 +54,10 @@ const NewsCards = ({ articles, activeArticle }) => {
 								<Typography variant="h6">{infoCard.title}</Typography>
 
 								{infoCard.info ? (
-									<Typography variant="h6">
-										<strong>
-											{infoCard.title.split(" ")[2]}:
-											<br />
-											{infoCard.info}
-										</strong>
+									<Typography variant="h6" className={classes.searchTerms}>
+										<strong> {infoCard.title.split(" ")[2]}:</strong>
+										<br />
+										{infoCard.info}
 									</Typography>
 								) : null}
 

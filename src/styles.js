@@ -22,6 +22,12 @@ export default makeStyles((theme) => ({
 		// background: "#10043A",
 		padding: "10px",
 	},
+	title: {
+		[theme.breakpoints.down("md")]: {
+			fontSize: "1rem",
+		},
+	},
+
 	socialIcons: {
 		width: "50px",
 		height: "50px",

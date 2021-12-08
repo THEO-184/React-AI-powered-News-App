@@ -5,6 +5,12 @@ export default makeStyles({
 		padding: "0 5%",
 		width: "100%",
 		margin: 0,
+		fontFamily: "Arial, Helvetica, sans-serif",
+	},
+
+	searchTerms: {
+		fontSize: "1rem",
+		fontFamily: "inherit",
 	},
 
 	card: {
@@ -13,6 +19,7 @@ export default makeStyles({
 		justifyContent: "space-between",
 		alignItems: "center",
 		// width: "100%",
+		fontFamily: "inherit",
 		height: "45vh",
 		padding: "10%",
 		borderRadius: 10,

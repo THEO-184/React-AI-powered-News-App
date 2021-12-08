@@ -45,8 +45,9 @@ const App = () => {
 		<div>
 			<div className={classes.logoContainer}>
 				<Typography variant="h6" className={classes.title}>
-					Voice Assistant Application. Use the voice <br /> button below for
-					AI-assisted features in this App
+					Voice Assistant Application. <br /> Use the AI powered voice button
+					below to search for your news from the categories below and optionally
+					navigate through the displayed news with the AI voice button;
 				</Typography>
 			</div>
 			<NewsCards articles={newsArticles} activeArticle={activeArticle} />
@@ -85,7 +86,11 @@ const App = () => {
 					</div>
 					<div className={classes.socialIcons}>
 						{" "}
-						<a href="/" target="_blank">
+						<a
+							href="mailto:theophilusboakye47@gmail.com"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<AiOutlineMail className={classes.icons} />
 						</a>
 					</div>
@@ -99,6 +104,7 @@ const App = () => {
 						rel="noreferrer"
 						target="_blank"
 					>
+						<span> </span>
 						Theophilus Boakye Yiadom
 					</a>
 				</h3>
