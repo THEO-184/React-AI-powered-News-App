@@ -26,7 +26,6 @@ const App = () => {
 				} else if (command === "highlight") {
 					setActiveArticle((prev) => prev + 1);
 				} else if (command === "open") {
-					console.log(number);
 					const parsedNumber =
 						number.length > 2 ? wordsToNumbers(number, { fuzzy: true }) : null;
 					const article = articles[parsedNumber - 1];
@@ -45,9 +44,8 @@ const App = () => {
 		<div>
 			<div className={classes.logoContainer}>
 				<Typography variant="h6" className={classes.title}>
-					Voice Assistant Application. <br /> Use the AI powered voice button
-					below to search for your news from the categories below and optionally
-					navigate through the displayed news with the AI voice button;
+					Voice Assistant Application. <br /> use the AI voice button below to
+					ask the AI "What does This app do."
 				</Typography>
 			</div>
 			<NewsCards articles={newsArticles} activeArticle={activeArticle} />
