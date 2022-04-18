@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-### demo: https://voice-assistant-news-app.netlify.app
+### dem0: https://voice-assistant-news-app.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
